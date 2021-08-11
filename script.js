@@ -133,7 +133,7 @@ function colorAfterDelay(letterGrid){
 }
 
 function colorTitle(isModeRainbow){
-    for (let i = 0; i < titleContainer.childElementCount; i++) {
+    for (let i = 7; i < titleContainer.childElementCount; i++) {
         letterDict[titleArray[i]].forEach( function(child){
         if(isModeRainbow)
         {
